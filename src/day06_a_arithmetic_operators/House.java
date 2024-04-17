@@ -26,7 +26,7 @@ public class House {
         String houseType = "Penthouse", fullAddress =  "12345 Test ST";
 
         int numOfBedroom = 4;
-        int numOfBathroom = 2;
+        int numOfBathrooms = 2;
         int numOfKitchen = 2;
         int zipCode = 54321;
 
