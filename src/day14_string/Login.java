@@ -51,8 +51,10 @@ public class Login {
             check if the username is matching
          */
 
-        if (passwordFromUser.length() > 8
-                && expectedPassword.equals(passwordFromUser)
+
+
+        if (passwordFromUser.length() > 8 // returns as an int, but the dataType is still String
+                && expectedPassword.equals(passwordFromUser) // here I have to use .equals because the variable is still String
                 && expectedUsername.equalsIgnoreCase(usernameFromUser) ){ // JAVA vs java
             System.out.println("LOGGED IN");
         }
