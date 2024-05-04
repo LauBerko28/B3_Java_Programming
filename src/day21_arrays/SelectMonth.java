@@ -36,6 +36,7 @@ public class SelectMonth {
             System.out.println("wrong input"); // System.out.println("wrong input, try again between 1 and 12") --> with the try again will have to add a loop to it. because i dont know how many times the user will take until it gives me a valid number, then I do a WHILE LOOP thatm will run at least once
         }
 */
+        // LAU WATCH THE VIDEO ON YOUR PHONE WITH THIS EXPLANATION FROM 05/04
         do {
 
             System.out.print("Enter: ");
