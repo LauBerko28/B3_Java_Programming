@@ -46,4 +46,4 @@ for (int [] eachSingleArray  :nums){ // here im looping through the 2d array
 
 }
     }
-}
+
