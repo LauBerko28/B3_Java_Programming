@@ -77,4 +77,70 @@ public class ArrayUtil {
         }
         return false;
     }
+
+    /**
+     * This method returns new array with added elements at the end
+     * @param origArr is an array where we will add an element to the end
+     * @param num is the element we will add to the end
+     * @return new array with the added element
+     */
+    public static int [] addElemInArray ( int [] origArr , int num ){
+
+        int [] newArr = Arrays.copyOf(origArr, origArr.length+1);
+        //  {1,2,3,_}
+        newArr [newArr.length-1] = num;
+
+        return null;
+    }
+
+    // TODO: Create a reusable method that takes 2 int array amd returns one array combined
+
+    /**
+     * This method finds first matched element's index of int array
+     * @param arr is the parameter where we will check for the element
+     * @param num is the parameter where we will check if there is a match to it
+     * @return the index if there is a match and -1 if there is no match
+     */
+    public static int indexOf (int [] arr , int num) {
+
+        for (int i = 0; i < arr.length-1; i++) {
+
+            if (arr[i] == num ){
+                return i; // with this one im looping to find a matching case
+            }
+        }
+
+        return -1; // think about when you do an indexOf in String and there is not a matching case then java will return -1
+    }
+
+    /**
+     * This method finds first matched element's index of String array
+     * @param word is the parameter where we will check for the element
+     * @param word is the parameter where we will check if there is a match to it
+     * @return the index if there is a match and -1 if there is no match
+     */
+
+    public static int indexOf (String [] array, String word){
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].equals(word)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * This method sums up all the elements in int
+     * @param nums  is the array where I get all the elements to sup up
+     * @return the total of the all elements summed up.
+     */
+
+    public static int sum (int ... nums) {
+        int sum = 0;
+        for ( int eachNum :nums){
+            sum += eachNum;
+        }
+        return sum;
+    }
 }
