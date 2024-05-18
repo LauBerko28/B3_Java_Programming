@@ -93,7 +93,27 @@ public class ArrayUtil {
         return null;
     }
 
-    // TODO: Create a reusable method that takes 2 int array amd returns one array combined
+    /**
+     * This method returns a new array with combined elements from 2 int arrays
+     * @param array1 is where we will add an element to the beginning
+     * @param array2 is an array where we will add an element to the  end
+     * @return new array with combined elements
+     */
+
+    public static int [] addElemInArray (int [] array1 , int [] array2){ // [0, 1, 1, 2, 3] - [4, 5]
+
+
+        int [] combinedArr = Arrays.copyOf(array1, array1.length + array2.length); // [0, 1, 1, 2, 3, _, _]
+
+        for (int i = array1.length; i < combinedArr.length; i++) {
+            //    bc i want my starting point from the end of the first array
+
+            combinedArr [i] =  array2 [i-array1.length]; // newArr[5] = arr2[5 - 5]; |  newArr[6] = arr2[6 - 5]
+
+        }
+
+        return combinedArr;
+    }
 
     /**
      * This method finds first matched element's index of int array
@@ -143,4 +163,6 @@ public class ArrayUtil {
         }
         return sum;
     }
+
+    //TODO: create a reusable method with 2 arrays that accepts String
 }
