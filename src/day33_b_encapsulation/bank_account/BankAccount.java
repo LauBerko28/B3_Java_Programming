@@ -1,4 +1,4 @@
-package day33_b_encapsulation.access_modifiers.bank_account;
+package day33_b_encapsulation.bank_account;
 
 public class BankAccount {
     // by making these private, I am restricting DIRECT access to them.

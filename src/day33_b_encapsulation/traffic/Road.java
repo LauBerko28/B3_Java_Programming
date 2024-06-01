@@ -1,4 +1,4 @@
-package day33_b_encapsulation.access_modifiers.traffic;
+package day33_b_encapsulation.traffic;
 
 public class Road {
     public static void main(String[] args) {

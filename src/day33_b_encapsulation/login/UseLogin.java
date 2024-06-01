@@ -1,4 +1,4 @@
-package day33_b_encapsulation.access_modifiers.login;
+package day33_b_encapsulation.login;
 
 public class UseLogin {
     public static void main(String[] args) {
