@@ -21,8 +21,8 @@ public class Offer {
     // create instance variables
     String location;
     String company;
-    double salary;
-    boolean isFullTime;
+   public double salary;
+   public boolean isFullTime;
     int numOfPTO;
 
 
