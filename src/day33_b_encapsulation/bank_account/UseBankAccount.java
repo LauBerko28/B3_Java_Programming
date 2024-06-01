@@ -1,6 +1,4 @@
-package day33_b_encapsulation.access_modifiers.bank_account;
-
-import day17_loops.MaxAndMin;
+package day33_b_encapsulation.bank_account;
 
 public class UseBankAccount {
     public static void main(String[] args) {
