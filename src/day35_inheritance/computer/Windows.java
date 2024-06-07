@@ -1,6 +1,4 @@
-package day35_inheritance.recap.computer;
-
-import day21_arrays.SumUpElements;
+package day35_inheritance.computer;
 
 //this is a child and sibling class
 public class Windows extends Computer{

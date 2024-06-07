@@ -1,4 +1,4 @@
-package day35_inheritance.recap.book;
+package day35_inheritance.book;
 
 public class AudioBook extends Book {
     double duration; // 30min long

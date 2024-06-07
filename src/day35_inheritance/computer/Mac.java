@@ -1,4 +1,4 @@
-package day35_inheritance.recap.computer;
+package day35_inheritance.computer;
 //this is a child and sibling class
 public class Mac extends Computer {
 
