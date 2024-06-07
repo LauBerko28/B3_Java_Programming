@@ -1,4 +1,4 @@
-package day35_inheritance.recap.super_duper;
+package day35_inheritance.super_duper;
 
 public class C extends A{
 

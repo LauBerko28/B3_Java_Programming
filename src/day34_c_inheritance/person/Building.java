@@ -1,4 +1,4 @@
-package day34_c_inheritance.animal.person;
+package day34_c_inheritance.person;
 
 public class Building {
     public static void main(String[] args) {

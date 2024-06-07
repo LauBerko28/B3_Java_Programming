@@ -1,4 +1,4 @@
-package day35_inheritance.recap.computer;
+package day35_inheritance.computer;
 
 public class Lab {
     public static void main(String[] args) {

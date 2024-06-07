@@ -1,4 +1,4 @@
-package day35_inheritance.recap.computer;
+package day35_inheritance.computer;
 // This one will be my parent class
 public class Computer {
 

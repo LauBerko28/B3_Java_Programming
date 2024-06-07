@@ -1,4 +1,4 @@
-package day35_inheritance.recap.book;
+package day35_inheritance.book;
 
 public class EBook extends Book {
     double size;
